@@ -28,15 +28,15 @@ img[src="./S.M. back I.png"]{
     box-shadow: 1px 3px 10px rgba(128, 128, 128, 0.356);
 }
 
-@media(max-width:580px){
+@media(max-width:767px){
     .me{
-        height:500px;
+        height:100vh;
     }
 }
 
-@media(min-width:581px) and (max-width:750px){
+@media(min-width:768px) and (max-width:992px){
     .me{
-        height:700px;
+        height:500px;
     }
 }
 
