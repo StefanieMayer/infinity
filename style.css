@@ -26,7 +26,18 @@ img[src="./S.M. back I.png"]{
     text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.196);
     box-shadow: 1px 3px 10px rgba(128, 128, 128, 0.356);
+}
 
+@media(max-width:580px){
+    .me{
+        height:500px;
+    }
+}
+
+@media(min-width:581px) and (max-width:750px){
+    .me{
+        height:700px;
+    }
 }
 
 .me{
